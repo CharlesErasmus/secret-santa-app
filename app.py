@@ -49,8 +49,3 @@ def check():
         else:
             flash("Name not found. Check spelling!", "error")
     return render_template("check.html", name=name, assigned=assigned)
-
-if __name__ == "__main__":
-    app.run(debug=True)
-
-
